@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Database/Release/DGRelease.h

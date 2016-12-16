@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/User/DGUser.h

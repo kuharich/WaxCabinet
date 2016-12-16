@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Mapping/Database/Label/DGLabelRelease+Mapping.h

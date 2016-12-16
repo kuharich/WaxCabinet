@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/User/Wantlist/DGWantlist.h

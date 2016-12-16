@@ -16,6 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithDictionary: [[UITabBarItem appearance] titleTextAttributesForState:UIControlStateNormal]];
+    [attributes setValue:[UIFont fontWithName:@"waxcabicons" size:20.0f] forKey:NSFontAttributeName];
+    [[UITabBarItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
+    
     // Override point for customization after application launch.
     return YES;
 }

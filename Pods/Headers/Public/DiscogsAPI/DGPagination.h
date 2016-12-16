@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Pagination/DGPagination.h

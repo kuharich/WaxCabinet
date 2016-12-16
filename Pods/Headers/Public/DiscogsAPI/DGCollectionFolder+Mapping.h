@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Mapping/User/Collection/DGCollectionFolder+Mapping.h

@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Configuration/DGEndpoint+Configuration.h

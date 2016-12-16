@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Mapping/User/Identity/DGIdentity+Mapping.h

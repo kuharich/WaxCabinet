@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1322D87DCA9727813A793C1E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6480739E34BD8D6716DCC66C /* libPods.a */; };
 		9F08EF051BA5C502008E06F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF041BA5C502008E06F3 /* main.m */; };
 		9F08EF081BA5C502008E06F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF071BA5C502008E06F3 /* AppDelegate.m */; };
 		9F08EF0B1BA5C502008E06F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF0A1BA5C502008E06F3 /* ViewController.m */; };
@@ -14,6 +15,13 @@
 		9F08EF101BA5C502008E06F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F08EF0F1BA5C502008E06F3 /* Images.xcassets */; };
 		9F08EF131BA5C502008E06F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F08EF111BA5C502008E06F3 /* LaunchScreen.xib */; };
 		9F08EF1F1BA5C502008E06F3 /* WaxCabinetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF1E1BA5C502008E06F3 /* WaxCabinetTests.m */; };
+		9F08EF341BA5D12E008E06F3 /* DTOAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF2F1BA5D12E008E06F3 /* DTOAuthClient.m */; };
+		9F08EF351BA5D12E008E06F3 /* DTOAuthFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF311BA5D12E008E06F3 /* DTOAuthFunctions.m */; };
+		9F08EF361BA5D12E008E06F3 /* DTOAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF331BA5D12E008E06F3 /* DTOAuthWebViewController.m */; };
+		9F08EF3B1BA5D29D008E06F3 /* DiscogsOAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF381BA5D29D008E06F3 /* DiscogsOAuthClient.m */; };
+		9F08EF3C1BA5D29D008E06F3 /* DiscogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F08EF3A1BA5D29D008E06F3 /* DiscogsViewController.m */; };
+		9F4477631C2372C0004FF5D7 /* DGAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4477621C2372C0004FF5D7 /* DGAuthViewController.m */; };
+		9F9BDCC11C0B132F009792C7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BDCC01C0B132F009792C7 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6480739E34BD8D6716DCC66C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB61350B5D272F0F2B5B20E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		92D50425330B1B975054710E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9F08EEFF1BA5C502008E06F3 /* WaxCabinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaxCabinet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F08EF031BA5C502008E06F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F08EF041BA5C502008E06F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,23 @@
 		9F08EF181BA5C502008E06F3 /* WaxCabinetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaxCabinetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F08EF1D1BA5C502008E06F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F08EF1E1BA5C502008E06F3 /* WaxCabinetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaxCabinetTests.m; sourceTree = "<group>"; };
+		9F08EF281BA5CF4A008E06F3 /* WaxCabinet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaxCabinet-Prefix.pch"; sourceTree = "<group>"; };
+		9F08EF2C1BA5D12E008E06F3 /* Core-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Core-Prefix.pch"; sourceTree = "<group>"; };
+		9F08EF2E1BA5D12E008E06F3 /* DTOAuthClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOAuthClient.h; sourceTree = "<group>"; };
+		9F08EF2F1BA5D12E008E06F3 /* DTOAuthClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOAuthClient.m; sourceTree = "<group>"; };
+		9F08EF301BA5D12E008E06F3 /* DTOAuthFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOAuthFunctions.h; sourceTree = "<group>"; };
+		9F08EF311BA5D12E008E06F3 /* DTOAuthFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOAuthFunctions.m; sourceTree = "<group>"; };
+		9F08EF321BA5D12E008E06F3 /* DTOAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOAuthWebViewController.h; sourceTree = "<group>"; };
+		9F08EF331BA5D12E008E06F3 /* DTOAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOAuthWebViewController.m; sourceTree = "<group>"; };
+		9F08EF371BA5D29D008E06F3 /* DiscogsOAuthClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscogsOAuthClient.h; sourceTree = "<group>"; };
+		9F08EF381BA5D29D008E06F3 /* DiscogsOAuthClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscogsOAuthClient.m; sourceTree = "<group>"; };
+		9F08EF391BA5D29D008E06F3 /* DiscogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscogsViewController.h; sourceTree = "<group>"; };
+		9F08EF3A1BA5D29D008E06F3 /* DiscogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscogsViewController.m; sourceTree = "<group>"; };
+		9F08EF3D1BA5D2F6008E06F3 /* OAuthSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuthSettings.h; sourceTree = "<group>"; };
+		9F4477611C237266004FF5D7 /* DGAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGAuthViewController.h; sourceTree = "<group>"; };
+		9F4477621C2372C0004FF5D7 /* DGAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGAuthViewController.m; sourceTree = "<group>"; };
+		9F9BDCBF1C0B12FC009792C7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9F9BDCC01C0B132F009792C7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1322D87DCA9727813A793C1E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D921A0608A4E926E24061D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6480739E34BD8D6716DCC66C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67FE14B4EA050AA83BF622B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CB61350B5D272F0F2B5B20E /* Pods.debug.xcconfig */,
+				92D50425330B1B975054710E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F08EEF61BA5C502008E06F3 = {
 			isa = PBXGroup;
 			children = (
+				9F08EF2B1BA5D12E008E06F3 /* Core */,
 				9F08EF011BA5C502008E06F3 /* WaxCabinet */,
 				9F08EF1B1BA5C502008E06F3 /* WaxCabinetTests */,
 				9F08EF001BA5C502008E06F3 /* Products */,
+				67FE14B4EA050AA83BF622B5 /* Pods */,
+				5D921A0608A4E926E24061D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +130,11 @@
 		9F08EF011BA5C502008E06F3 /* WaxCabinet */ = {
 			isa = PBXGroup;
 			children = (
+				9F08EF3D1BA5D2F6008E06F3 /* OAuthSettings.h */,
+				9F08EF371BA5D29D008E06F3 /* DiscogsOAuthClient.h */,
+				9F08EF381BA5D29D008E06F3 /* DiscogsOAuthClient.m */,
+				9F08EF391BA5D29D008E06F3 /* DiscogsViewController.h */,
+				9F08EF3A1BA5D29D008E06F3 /* DiscogsViewController.m */,
 				9F08EF061BA5C502008E06F3 /* AppDelegate.h */,
 				9F08EF071BA5C502008E06F3 /* AppDelegate.m */,
 				9F08EF091BA5C502008E06F3 /* ViewController.h */,
@@ -89,6 +143,11 @@
 				9F08EF0F1BA5C502008E06F3 /* Images.xcassets */,
 				9F08EF111BA5C502008E06F3 /* LaunchScreen.xib */,
 				9F08EF021BA5C502008E06F3 /* Supporting Files */,
+				9F08EF281BA5CF4A008E06F3 /* WaxCabinet-Prefix.pch */,
+				9F9BDCBF1C0B12FC009792C7 /* HomeViewController.h */,
+				9F9BDCC01C0B132F009792C7 /* HomeViewController.m */,
+				9F4477611C237266004FF5D7 /* DGAuthViewController.h */,
+				9F4477621C2372C0004FF5D7 /* DGAuthViewController.m */,
 			);
 			path = WaxCabinet;
 			sourceTree = "<group>";
@@ -119,6 +178,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9F08EF2B1BA5D12E008E06F3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F08EF2C1BA5D12E008E06F3 /* Core-Prefix.pch */,
+				9F08EF2D1BA5D12E008E06F3 /* Source */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9F08EF2D1BA5D12E008E06F3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9F08EF2E1BA5D12E008E06F3 /* DTOAuthClient.h */,
+				9F08EF2F1BA5D12E008E06F3 /* DTOAuthClient.m */,
+				9F08EF301BA5D12E008E06F3 /* DTOAuthFunctions.h */,
+				9F08EF311BA5D12E008E06F3 /* DTOAuthFunctions.m */,
+				9F08EF321BA5D12E008E06F3 /* DTOAuthWebViewController.h */,
+				9F08EF331BA5D12E008E06F3 /* DTOAuthWebViewController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F08EF221BA5C502008E06F3 /* Build configuration list for PBXNativeTarget "WaxCabinet" */;
 			buildPhases = (
+				F6FADDE0789909B662C56AC5 /* Check Pods Manifest.lock */,
 				9F08EEFB1BA5C502008E06F3 /* Sources */,
 				9F08EEFC1BA5C502008E06F3 /* Frameworks */,
 				9F08EEFD1BA5C502008E06F3 /* Resources */,
+				9327513C095778F5F072EFA4 /* Embed Pods Frameworks */,
+				1DF4E242057FDB0B90CBC6B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +247,7 @@
 		9F08EEF71BA5C502008E06F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Mark Kuharich";
 				TargetAttributes = {
 					9F08EEFE1BA5C502008E06F3 = {
@@ -214,6 +298,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF4E242057FDB0B90CBC6B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9327513C095778F5F072EFA4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FADDE0789909B662C56AC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F08EEFB1BA5C502008E06F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +353,14 @@
 			files = (
 				9F08EF0B1BA5C502008E06F3 /* ViewController.m in Sources */,
 				9F08EF081BA5C502008E06F3 /* AppDelegate.m in Sources */,
+				9F08EF341BA5D12E008E06F3 /* DTOAuthClient.m in Sources */,
+				9F08EF3B1BA5D29D008E06F3 /* DiscogsOAuthClient.m in Sources */,
+				9F08EF361BA5D12E008E06F3 /* DTOAuthWebViewController.m in Sources */,
+				9F9BDCC11C0B132F009792C7 /* HomeViewController.m in Sources */,
+				9F08EF3C1BA5D29D008E06F3 /* DiscogsViewController.m in Sources */,
 				9F08EF051BA5C502008E06F3 /* main.m in Sources */,
+				9F08EF351BA5D12E008E06F3 /* DTOAuthFunctions.m in Sources */,
+				9F4477631C2372C0004FF5D7 /* DGAuthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +423,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,20 +485,28 @@
 		};
 		9F08EF231BA5C502008E06F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB61350B5D272F0F2B5B20E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaxCabinet/WaxCabinet-Prefix.pch";
 				INFOPLIST_FILE = WaxCabinet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9F08EF241BA5C502008E06F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D50425330B1B975054710E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaxCabinet/WaxCabinet-Prefix.pch";
 				INFOPLIST_FILE = WaxCabinet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +525,7 @@
 				);
 				INFOPLIST_FILE = WaxCabinetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaxCabinet.app/WaxCabinet";
 			};
@@ -392,6 +541,7 @@
 				);
 				INFOPLIST_FILE = WaxCabinetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaxCabinet.app/WaxCabinet";
 			};
@@ -416,6 +566,7 @@
 				9F08EF241BA5C502008E06F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F08EF251BA5C502008E06F3 /* Build configuration list for PBXNativeTarget "WaxCabinetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +575,7 @@
 				9F08EF271BA5C502008E06F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

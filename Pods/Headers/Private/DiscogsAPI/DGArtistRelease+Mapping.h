@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Mapping/Database/Artist/DGArtistRelease+Mapping.h

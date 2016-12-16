@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Authentication/DGAuthentication.h

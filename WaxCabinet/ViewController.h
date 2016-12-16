@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+- (IBAction)discogs:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnDiscogs;
 @end
 

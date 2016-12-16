@@ -1,0 +1,1 @@
+../../../DiscogsAPI/DiscogsAPI/Mapping/Database/Master/DGMaster+Mapping.h
